@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './style';
+import Images from '../../assets/images';
 
 class index extends Component {
   render() {
@@ -13,6 +14,9 @@ class index extends Component {
               onPress={() => this.props.navigation.goBack()}>
               {this.props.smallBack && <Text>Back</Text>}
             </TouchableOpacity>
+          )}
+          {this.props.menu && (
+            <Image style={{ width: 40, height: 40 }} source={Images.imgIcMenu} />
           )}
         </View>
         <View style={styles.viewCenter}>

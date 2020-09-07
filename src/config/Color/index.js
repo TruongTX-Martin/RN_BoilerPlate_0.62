@@ -1,6 +1,6 @@
 const color = {
   headerColor: '#FDF9ED',
-  headerColorGray: '#F0F0F0',
+  headerColorGray: '#3700B3',
   headerColorWhite: '#ffffff',
   loading: '#0000ff',
 };

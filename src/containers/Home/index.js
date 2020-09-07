@@ -3,6 +3,7 @@ import { Container, Body, Header, Content } from 'native-base';
 import { connect } from 'react-redux';
 import { View, Text } from 'react-native';
 import HeaderBase from '../../components/HeaderBase';
+import Config from '../../config';
 
 class index extends Component {
   constructor(props) {
@@ -12,8 +13,8 @@ class index extends Component {
   render() {
     return (
       <Container>
-        <Header>
-          <HeaderBase title={'Home Screen'} />
+        <Header style={[Config.Styles.headerGray]}>
+          <HeaderBase title={'Home Screen'} menu />
         </Header>
         <Body>
           <Content>

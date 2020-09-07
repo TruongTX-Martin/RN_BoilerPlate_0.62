@@ -1,3 +1,3 @@
 export default {
-  // imageAdd: require('./ic_add.png'),
+  imgIcMenu: require('./ic_menu.png'),
 };
