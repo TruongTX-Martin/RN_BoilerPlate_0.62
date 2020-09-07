@@ -1,4 +1,4 @@
-package com.minischool.minitv;
+package com.me;
 
 import android.content.Intent;
 import android.os.Bundle;

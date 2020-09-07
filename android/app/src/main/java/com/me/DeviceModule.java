@@ -1,4 +1,5 @@
-package com.minischool.minitv;
+package com.me;
+
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;

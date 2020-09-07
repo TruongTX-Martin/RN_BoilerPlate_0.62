@@ -1,4 +1,4 @@
-package com.minischool.minitv;
+package com.me;
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;

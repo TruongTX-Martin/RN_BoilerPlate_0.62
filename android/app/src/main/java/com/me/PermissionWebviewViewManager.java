@@ -1,4 +1,5 @@
-package com.minischool.minitv;
+package com.me;
+
 
 import android.os.Build;
 
