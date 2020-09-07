@@ -3,16 +3,13 @@ import { Text, View, TouchableOpacity, Image, Dimensions } from 'react-native';
 import { Container, Body, Content } from 'native-base';
 import { connect } from 'react-redux';
 import { EventRegister } from 'react-native-event-listeners';
-import * as myPageActions from '../../redux/actions/myPageActions';
 
 class index extends Component {
   constructor(props) {
     super(props);
   }
 
-  componentDidMount() {
-    this.props.getMe();
-  }
+  componentDidMount() { }
 
   render() {
     return (
